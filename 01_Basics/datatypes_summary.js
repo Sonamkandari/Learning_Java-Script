@@ -14,3 +14,18 @@ let userEmail;//value is undefined
 const id = Symbol('123')
 const anotherID = Symbol('123')
 console.log(id == anotherID);//varification
+
+//objects 
+
+const heros = ["Doremon", "Ninja hatori","motu-patlu"];
+let myObj ={
+    name:"sonam",
+    age:21,
+}
+
+
+const myFunction  = function(){
+    console.log("Hello world");
+    
+}
+ console.log(typeof bigNumber);// value is undefined

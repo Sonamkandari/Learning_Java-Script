@@ -29,3 +29,32 @@ const myFunction  = function(){
     
 }
  console.log(typeof bigNumber);// value is undefined
+
+
+ //memory  in java script are of two types stack memory and heap memory
+ 
+ //in all PRIMITIVE types(Stack)
+ let myname ="Doremon ki Duniya"
+ let anothername= myname
+ anothername ="Mini Doremon"
+
+ console.log(myname);
+ console.log(anothername);
+
+
+ let user1 ={
+    email: "chola_allu@gmail.com",
+    upi: "ruiweyriw"
+ }
+ 
+ let user2 = user1
+ user2.email ="sonam@gmai.com"
+ user2.upi ="yiuhn"
+
+ console.log(user1.email);
+ console.log(user2e.email);
+ 
+ 
+ //in all NON-PRIMITIVE types(Heap)
+
+ 

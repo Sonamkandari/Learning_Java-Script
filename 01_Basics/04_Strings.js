@@ -42,6 +42,7 @@ console.log(link.replace('sonam','kandari'))
 console.log(link.includes('kandari'))// out put is false
 
 // split method(mdn ** for reading the documentation)
+//we have various another methods also which we can use 
 
 
 

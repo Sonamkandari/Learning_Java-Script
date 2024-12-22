@@ -26,7 +26,7 @@ console.log(astring);
 //trim and replace method
 
 const UTrim = "    Doremon    "
-console.log(UTrim);// out put with spaces 
+console.log(UTrim);// output with spaces 
 //trim is used here to remove the extra spaces
 console.log(UTrim.trim());// out put without spaces
 

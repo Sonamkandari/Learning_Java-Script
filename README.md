@@ -11,4 +11,5 @@
 7)lecture 08_dates in java scrip and differet method to use dates in java script
 
 # 02_Basics folder
-1) lecture 01_arrays
+1) lecture 01_arrays(basics operations like push ,pop, remove ,add,slice ,splice,unshift ,shift)
+2) lecture 02_arrays(operations like concatination,spread,flat,isArray,From,of)

@@ -34,6 +34,7 @@ console.log(Math.floor(Date.now()/1000));// now the time will be converted into 
 let newdate = new Date("2004-06-30")
 console.log(newdate.toString());
 // we can use some methods which can tell us about the month year day or particular day
+
 console.log(newdate.getMonth()+1);// if we not add +1 the OutPut will be 5 th month
 //beacuse in js month sequence is started from 0
 

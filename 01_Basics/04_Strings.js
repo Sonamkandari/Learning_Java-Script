@@ -24,7 +24,6 @@ const astring = gameName.slice(1,4)
 console.log(astring);
 
 //trim and replace method
-
 const UTrim = "    Doremon    "
 console.log(UTrim);// output with spaces 
 //trim is used here to remove the extra spaces

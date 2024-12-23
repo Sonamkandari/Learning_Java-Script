@@ -12,3 +12,4 @@
 # 02_Basics folder
 1) lecture 01_arrays(basics operations like push ,pop, remove ,add,slice ,splice,unshift ,shift)
 2) lecture 02_arrays(operations like concatination,spread,flat,isArray,From,of)
+3) lecture 03_objects(object creation, objects declaration,syble creation abd declaration,function creation calling)

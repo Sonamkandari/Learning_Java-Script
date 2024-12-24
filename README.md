@@ -19,3 +19,5 @@
 # 03_Basics folder
 1) lecture 01_functions(defination, syntax,example,and execution ,properties ,different ways of creating a function)
 2) lecture 02_functions()
+3) lecture 03_scopes-> block scope and global scope
+4) lecture 04_scope_levels

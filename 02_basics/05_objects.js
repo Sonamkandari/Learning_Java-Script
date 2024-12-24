@@ -1,4 +1,4 @@
-//DESTRUCTURING OF OBJECTD
+//DESTRUCTURING OF OBJECT
 
 const course = new Object()
 course.Cousename = "js programming"

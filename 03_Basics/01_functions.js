@@ -1,4 +1,4 @@
-// functions in jaa Script
+// functions in java Script
 /*function is a key word in java script
 
 -> In JavaScript, a function is a block of reusable code that performs
@@ -60,7 +60,5 @@ function Multi_OfNumbers( a,b){//these are called parameters beacuse we are defi
   }
  const result= Multi_OfNumbers(9,6);//by passing the arguments
  console.log("Results:",result)
-
-
 
  

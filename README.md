@@ -14,3 +14,4 @@
 2) lecture 02_arrays(operations like concatination,spread,flat,isArray,From,of)
 3) lecture 03_objects(object creation, objects declaration,syble creation abd declaration,function creation calling)
 4) lecture 04_objects(declaring objects ,merging two or more objects through different ways)
+5) lecture 05_objects(Desturcturing of objects,APIs,JSON -> java script object notation)

@@ -21,3 +21,4 @@
 2) lecture 02_functions()
 3) lecture 03_scopes-> block scope and global scope
 4) lecture 04_scope_levels
+5) lecture 05_Arrow functions(syntax ,examples,ways of creating arrow functins,implicit return and explicite return ,use of this keyword)

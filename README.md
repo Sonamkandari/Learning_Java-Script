@@ -22,3 +22,9 @@
 3) lecture 03_scopes-> block scope and global scope
 4) lecture 04_scope_levels
 5) lecture 05_Arrow functions(syntax ,examples,ways of creating arrow functins,implicit return and explicite return ,use of this keyword)
+6) lecture 06_IIFE -> Immediately invoked function expression, why we use IIFe, syntax,
+   
+# 04_Intermediate folder
+1) lecture 01_js Execution(java script execution process),
+2) lecture 02_Control flow(if else cases , Syntax and Examples)
+4) lecture 03_Swictch Statement(syntax,examples)

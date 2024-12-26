@@ -26,5 +26,5 @@
    
 # 04_Intermediate folder
 1) lecture 01_js Execution(java script execution process),
-2) lecture 02_Control flow(if else cases , Syntax and Examples)
+2) lecture 02_Control flow(if else cases , Syntax and Examples,logical operators)
 4) lecture 03_Swictch Statement(syntax,examples)

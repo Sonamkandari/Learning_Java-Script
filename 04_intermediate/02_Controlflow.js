@@ -71,6 +71,8 @@ const loggedinFromgoogle = false
 const loggedinFromemail = true
 
 
+//Logical operator
+
 if(userLoggedIn && debitcard && 2==3){// & operator both the condition should be true for execution
     console.log("Allow to buy course");
 }else{

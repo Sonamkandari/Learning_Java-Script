@@ -7,7 +7,7 @@ subject()*/
 
 //how we aply iife -> kept  the fuction inside the parenthesis
 
-//due to global scope pollution we have to face some issues so for REMOVING that polution we use IIFE
+//due to global scope pollution we have to Phase some issues so for REMOVING that polution we use IIFE
 //named iffi
 (function subject(){
     console.log(`DB CONNECTED`);

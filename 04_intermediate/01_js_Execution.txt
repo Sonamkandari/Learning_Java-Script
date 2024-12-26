@@ -1,0 +1,20 @@
+// JAVA SCRIPT EXECUTION CONTEXT
+//GLOBAL EXECUTION CONTEXT -> refers a variable [THIS variable] 
+
+//note 
+/*Browser's global execution context is different than Node js global execution context*/
+//java script is single threaded
+
+//Functional execution context
+
+//Eval execution context -> it is a property of  global exeution context 
+
+//**Memory creation Phase {Creation phase}
+//**Execution Phase {Creation phase}
+
+
+**LIFO lAST IN FIRST OUT
+
+
+
+

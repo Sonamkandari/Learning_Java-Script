@@ -31,10 +31,8 @@ if (UserMessage.length===0){
 //Nullish Coalescing operator (??)
 let val;
 //val = 5??10
-val = null?? 10// it will check if first alue is null or not 
-val = undefined?? 45// it will check if first alue is null or not 
-
-
+val = null?? 10// it will check is the first value is null or not  if first value is 0, it will always print next value which is not zero
+val = undefined?? 45// it will check if the first value is null or not 
 console.log(val);
 
 //ternary operator

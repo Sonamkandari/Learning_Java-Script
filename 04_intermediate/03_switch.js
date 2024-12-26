@@ -7,7 +7,7 @@
 // }
 const month =3
 
-switch (/*key*/month) {//key is that value which shoulld be i check every time
+switch (/*key*/month) {//In JavaScript, a key in a switch statement refers to the value being compared against the case clauses within the switch block.
     case 1:
         console.log("January");
         break;
@@ -43,9 +43,14 @@ switch (/*key*/Days) {//key is that value which shoulld be i check every time
          break;
             
     case "Thrusday":
-        console.log("March");//by default what happend if key mathes still the remaining code will be executed
+        console.log("March");/* By default, if the key matches, 
+        the code for the matching case and all subsequent cases 
+        will be executed unless a break statement is used.*/
+
         break;//break is used to break the control flow
-        //we use break so that the code will executed util the key is not met
+        //We use the break statement to stop the execution. 
+        //If the key matches the case, the code will execute 
+        //up to that point and then stop.
 
     case "Friday":
         console.log("April");

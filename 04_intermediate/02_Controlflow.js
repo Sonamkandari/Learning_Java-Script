@@ -3,7 +3,7 @@
 /* if */
 const isSonamLoggedIn =true;
 
-if(2=="2"){//since here if we think logically it is not equal[a constant 2 is not equal to a String 2 ] 
+if(2=="2"){// if we think logically then this condition is not true[a constant 2 is not equal to a String 2 ] 
     console.log(true);//but output is true because it is not checking data types 
     
 }else{
@@ -37,8 +37,8 @@ if(marks>40){
     console.log(`student is:${pass}`);
     
 }
-//if if use var data type than this line will also execute
-//console.log(`student is:${pass}`);// this will gave a error because pass is  not initialize here that is initialize inside the block
+//if we use var data type than this line will also execute
+//console.log(`student is:${pass}`);// this will gave a error because pass variable is  not initialize here [that were initialized inside the block]
 
 // short hand notation
 const balance =9000;

@@ -27,3 +27,21 @@ if (UserMessage.length===0){
     console.log("Array is not empty");
     
 }
+
+//Nullish Coalescing operator (??)
+let val;
+//val = 5??10
+val = null?? 10// it will check if first alue is null or not 
+val = undefined?? 45// it will check if first alue is null or not 
+
+
+console.log(val);
+
+//ternary operator
+
+//condition ? true: false
+
+//Example 
+const icecream = 8989;
+icecream>=80 ? console.log("less than 8000"):console.log("more than 80");
+

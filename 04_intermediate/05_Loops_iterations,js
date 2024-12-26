@@ -1,0 +1,40 @@
+// for loop  Syntax and basic structure
+const array =[3,4,5,6,7,8];
+for(let i=0;i<=0;i++){// loop is used to iterate your complete array upto the last element 
+    const element=array[3];// we atre indicating the element at 3 rd index
+    console.log(element);// here we are printing the element which is at 3 rd index 
+
+} 
+
+const storage =[3,4,5,6,7,8];
+for(let i=0;i<=0;i++){// loop is used to iterate your complete array upto the last element 
+    const element=array[3];// we atre indicating the element at 3 rd index
+    console.log(element);// here we are printing the element which is at 3 rd index 
+   if(element==6){
+    console.log("at index 3 array contain element 6 yahuuuuu. ");
+    
+   }else{
+    console.log("element is not found");
+    
+   }
+   
+} 
+
+//nested loops (loop inside a loop)
+
+
+for (let i = 0; i <=10; i++) {
+    console.log(`outer loop value :${i}`);
+    
+    for (let j = 0; j <=10; j++) {
+        //console.log(`innner loop valoue ${j} and inner loop ${i}`);
+        
+        //simple logics for tables from 1 to 10
+        console.log(i+"*"+j+'='+i*j);
+        
+        
+    }
+    
+}
+
+//applying loops in arrays in java script

@@ -21,8 +21,6 @@ for(let i=0;i<=0;i++){// loop is used to iterate your complete array upto the la
 } 
 
 //nested loops (loops inside a loop)
-
-
 for (let i = 0; i <=10; i++) {
     console.log(`outer loop value :${i}`);
     
@@ -37,3 +35,31 @@ for (let i = 0; i <=10; i++) {
     
 }
 //applying loops in arrays in java script
+let myArray =["sonam","annu","Bhoot","Dora"]
+for(let i=0;i<myArray.length;i++){ // here we are using this loop for iterating the array which we declared here 
+    const element = myArray[i];
+    console.log(element);// printing all the elements of the array
+
+}
+
+
+// some basic key words 
+//Break and continue keyword 
+
+//The break keyword is like telling your code, "Stop right here and jump out of this loop or switch case." It’s used when you want to exit something early.
+
+for(let i=1;i<=5;i++){
+    if(i==3){
+        break;// stop the loop when i is 3
+    }// to break the control flow
+    console.log(i);
+    
+}
+
+// The continue keyword is like saying, "Skip this step and move to the next one." It’s used when you want to skip certain parts of a loop.
+for (j=1;j<=5;j++){
+    if(j==4){
+        continue;//skip when i is 4
+    }
+    console.log(j);
+}

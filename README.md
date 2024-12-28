@@ -28,3 +28,6 @@
 1) lecture 01_js Execution(java script execution process),
 2) lecture 02_Control flow(if else cases , Syntax and Examples,logical operators)
 4) lecture 03_Swictch Statement(syntax,examples)
+5) lecture 04_truthy and falsy values
+6) lecture 05_loops and iterations
+7) lecture 06_whileloop and do while loop (syntax and examples)

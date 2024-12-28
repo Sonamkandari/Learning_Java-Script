@@ -1,10 +1,9 @@
 const accountId = 1234
 let accountEmail= "cholapuri@gmail.accountEmail"
-var accountPassword="2345"// we dont use var now generally in js
-let accountState;//if we not gave value to it it will print in the table undefined
+var accountPassword="2345"// We don't prefer to use var in JavaScript.
+let accountState;//If we do not assign a value to it, it will display undefined in the console or table.
 /*
-prefered not to use var
-because of issue in block scope and fuctional scope
+It is preferred not to use var because of issues with block scope and functional scope.
 */
 accountCity="Dehradun"
  

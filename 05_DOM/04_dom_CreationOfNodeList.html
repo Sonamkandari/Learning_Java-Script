@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learing Java Script</title>
+</head>
+<body style="background-color: #212121;color: #fff;;">
+    
+</body>
+<script>
+    const div=document.createElement('div')
+    console.log(div);
+    //THESE are some by default atributes
+    //we can add class name to that div
+    div.className="Main"
+    // By using this Math library
+    //here we are generating a random library and each and every time we will gat the new id
+    div.id=Math.round(Math.random()*10+1)
+    
+    //THERE ARE also some custom attributes which are define by a user(or we can by a programmer)
+
+    div.setAttribute("title","generate  a title")
+    // we can also add styling
+    div.style.backgroundColor="yellow"
+    div.style.padding="120px"
+
+    // for seeing changes it is not necessory to first write some thing inside the ,becuase unless we will not  attach these changes with the page
+    
+    //div.innerText="Learning Java Script"
+   
+    //now till now we added various attributes ,created a div, but we are unable to  see the changes at the html page
+    //so firstly we have to attache these changes with the html page which we have created
+
+
+    //here we are creating our own text node
+    const addText=document.createTextNode("Learnig Java Script")
+     div.appendChild(addText)
+
+     document.body.appendChild(div)
+
+    
+
+</script>
+</html>

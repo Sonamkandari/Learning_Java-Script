@@ -31,3 +31,4 @@
 5) lecture 04_truthy and falsy values
 6) lecture 05_loops and iterations
 7) lecture 06_whileloop and do while loop (syntax and examples)
+8) 

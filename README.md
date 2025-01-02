@@ -31,4 +31,5 @@
 5) lecture 04_truthy and falsy values
 6) lecture 05_loops and iterations
 7) lecture 06_whileloop and do while loop (syntax and examples)
-8) 
+8) lecture 07_AdvanceLoops(for in, for off, for each loops,syntax and peactical examples)
+9) lecture 08,09_forEach loop and Filter_implimentation

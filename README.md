@@ -44,4 +44,5 @@
 
 # 06_Projects_In_Java_Script
 1) project 01_JavaScript Background Color Switcher
+2) project 02_
 

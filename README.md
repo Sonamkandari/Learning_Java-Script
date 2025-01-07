@@ -40,6 +40,7 @@
 3) lecture 03_Dom_element creation
 4) lecture 04_Dom Creation of Node List
 5) lecture 05_How to edit, delete and create elements in DOM
+6) 
 
 
 # 06_Projects_In_Java_Script

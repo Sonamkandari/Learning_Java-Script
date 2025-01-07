@@ -1,0 +1,50 @@
+.container{
+    width: 500px;
+    height: 800px;
+    background-color: rgb(217, 22, 22);
+    padding-left:40px ;
+}
+
+
+/*  manupulating size of two IDs Height and Weight  */
+#Height, #Weight{
+    Height: 30px;
+    width: 150px;
+    margin-top:30px;
+}
+
+/* changing the size of a ID  */
+#Weight-Guide{
+    margin-left: 70px;
+    margin-left: 25px;
+    margin-top: 30px;
+    padding-left:60px;
+}
+#Result{
+    font-size: 35px;
+    margin-left:90px;
+    margin-top:20;
+    color: white;
+
+}
+
+button{
+    width: 150px;
+    height: 30px;
+    margin-left: 90px;
+    margin-top: 25px;
+    background-color: #fff;
+    padding: 1px 30px;
+    border-radius: 8px;
+    color: black;
+    border: 2px solid #212221;
+    font-size: 20px;
+}
+
+h1{
+    padding: 20px;
+    padding-top:25px;
+}
+
+
+

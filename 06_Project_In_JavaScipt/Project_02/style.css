@@ -1,50 +1,45 @@
-.container{
-    width: 500px;
-    height: 800px;
-    background-color: rgb(217, 22, 22);
-    padding-left:40px ;
-}
-
-
-/*  manupulating size of two IDs Height and Weight  */
-#Height, #Weight{
-    Height: 30px;
+.container {
+    width: 575px;
+    height: 825px;
+    background-color: #797978;
+    padding-left: 30px;
+  }
+  #height,
+  #weight {
     width: 150px;
-    margin-top:30px;
-}
-
-/* changing the size of a ID  */
-#Weight-Guide{
-    margin-left: 70px;
-    margin-left: 25px;
+    height: 25px;
     margin-top: 30px;
-    padding-left:60px;
-}
-#Result{
+  }
+  
+  #WeightGuide {
+    margin-left: 75px;
+    margin-top: 25px;
+  }
+  
+  #results {
     font-size: 35px;
-    margin-left:90px;
-    margin-top:20;
-    color: white;
-
-}
-
-button{
+    margin-left: 90px;
+    margin-top: 20px;
+    color: rgb(241, 241, 241);
+  }
+  
+  button {
     width: 150px;
-    height: 30px;
+    height: 35px;
     margin-left: 90px;
     margin-top: 25px;
     background-color: #fff;
     padding: 1px 30px;
     border-radius: 8px;
-    color: black;
-    border: 2px solid #212221;
-    font-size: 20px;
-}
-
-h1{
-    padding: 20px;
-    padding-top:25px;
-}
-
-
-
+    color: #212121;
+    text-decoration: none;
+    border: 2px solid #212121;
+    font-size: 25px;
+  }
+  
+  h1 {
+    padding-left: 15px;
+    padding-top: 25px;
+    
+  }
+  

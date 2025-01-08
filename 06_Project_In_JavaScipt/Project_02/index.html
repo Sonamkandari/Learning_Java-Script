@@ -1,47 +1,44 @@
+
 <!DOCTYPE html>
 <html lang="en">
- <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-     <!--external resource file-->
-     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../styles.css" />
     <title>BMI Calculator</title>
-  
   </head>
- <body>
-          <nav>
-             <a href="/" aria-current="page">Home</a>
-            <a trget="" href="https://github.com/Sonamkandari/Java-Script/tree/main/06_Project_In_JavaScipt/Project_02" >Project Link</a>
-        </nav>
-     <div class="container">
-
-       <h1>BMI Calculator</h1>
-       <!--The <form> tag in HTML is used to create an HTML form for collecting user input.-->
-
-         <form>
-       <!--Associating Labels with Inputs:
+  <body>
+    <nav>
+      <a href="/" aria-current="page">Home</a>
+      <a target="_blank" href="https://www.youtube.com/@chaiaurcode"
+        >Youtube channel</a
+      >
+    </nav>
+    <div class="container">
+    
+      <h1>BMI Calculator</h1>
+      <!--The <form> tag in HTML is used to create an HTML form for collecting user input.-->
+      <form>
+         <!--Associating Labels with Inputs:
         The <label> tag is used to link descriptive text to a specific form input (like a text box, checkbox, radio button, etc.).-->
-            <P><label>Height in CM:</label><input type="text"id="Height"/></P>
-            <p><label>Weight in KG:</label><input type="text"id="Weight"/></p>
-       <!--Creating a button here so that whenever we click this button it will generate us the BMI of an individual-->
-           <button>Calculate</button>
-           
-        <!--The <div> tag is like a box that you can use to group or organize different parts of your webpage. It doesn't do anything on 
-        its own, but it helps you group things together so you can style or organize them more easily.-->   
-           <div id="Result"></div>
-           <div id="WeightGuide">
-           <h3>BMI Weight Guide</h3>
-           <p>Individual is under weight = less than 18.6</p>
-           <p>Normal Range =18.6 and 24.9</p>
-           <p>Obesity =Greater than 24.9</p>
-          </div>
-
-         </form>
-
-      </div>
-
- </body>
-  <!--connecting an external resource file-->
-  <script scr="script.js"></script>
+        <p><label>Height in CM: </label><input type="text" id="height" /></p>
+        <p><label>Weight in KG: </label><input type="text" id="weight" /></p>
+         
+        <!--Creating a button here so that whenever we click this button it will generate us the BMI of an individual-->
+        <button>Calculate</button>
+         <!--The <div> tag is like a box that you can use to group or organize different parts of your webpage. It doesn't do anything on 
+        its own, but it helps you group things together so you can style or organize them more easily.-->  
+        <div id="results"></div>
+        <div id="weight-guide">
+          <h3>BMI Weight Guide</h3>
+          <p>Under Weight = Less than 18.6</p>
+          <p>Normal Range = 18.6 and 24.9</p>
+          <p>Overweight = Greater than 24.9</p>
+        </div>
+      </form>
+    </div>
+  </body>
+  <script src="scrpt.js"></script>
 </html>

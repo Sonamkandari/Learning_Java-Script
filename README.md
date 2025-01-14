@@ -42,10 +42,15 @@
 5) lecture 05_How to edit, delete and create elements in DOM
 6) 
 
-
 # 06_Projects_In_Java_Script
 1) project 01_JavaScript Background Color Switcher
 2) project 02_Body Mass Calculator
 3) Digital Clock
-4) Number guessing game 
+4) Number guessing game
+
+# 07_Events and Project_In_Java_Script
+1) Lecture_01_Event handling, on click event, Propogation, stop propogation, types of event propogation, Bubling and caputring
+
+
+    
 

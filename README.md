@@ -47,4 +47,5 @@
 1) project 01_JavaScript Background Color Switcher
 2) project 02_Body Mass Calculator
 3) Digital Clock
+4) Number guessing game 
 

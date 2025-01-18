@@ -1,0 +1,17 @@
+table,th,td{
+    border:1px solid #e7e7e7;
+}
+.Project{
+    background-color: #1c1c1c;
+    color: #ffff;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+    height: 100vh;
+}
+.Color{
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+}

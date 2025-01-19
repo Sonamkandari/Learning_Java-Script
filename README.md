@@ -50,6 +50,13 @@
 
 # 07_Events and Project_In_Java_Script
 1) Lecture_01_Event handling, on click event, Propogation, stop propogation, types of event propogation, Bubling and caputring
+2) Lecture_02_Synchronous and Asynchronous language, file system, java script engine 
+
+# 08_Projects_In_Java_Script
+1) Lecture_01_Use of setTimeout function
+2) Lecture_02_Use of setTimeout and clear timeout  function
+3) Lecture_03_Key board checker
+4)  
 
 
     

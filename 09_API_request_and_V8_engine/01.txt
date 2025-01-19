@@ -1,0 +1,33 @@
+
+**A JSON Formatter is a tool or utility used to format 
+JSON (JavaScript Object Notation) data into a human-readable
+and visually structured format. JSON is a lightweight data-
+interchange format often used for storing and exchanging data in web applications.
+
+Original (Minified) JSON:
+
+{"name":"Sonam","age":20,"skills":["Java","Python","HTML"]}
+
+Formatted JSON:
+{
+  "name": "Sonam",
+  "age": 20,
+  "skills": [
+    "Java",
+    "Python",
+    "HTML"
+  ]
+}
+
+
+**states of xml
+0   UNSENT	Client has been created. open() not called yet.
+1	OPENED	open() has been called.
+2	HEADERS_RECEIVED	send() has been called, and headers and status are available.
+3	LOADING	Downloading; responseText holds partial data.
+4	DONE	The operation is complete.
+
+
+// MDN
+
+

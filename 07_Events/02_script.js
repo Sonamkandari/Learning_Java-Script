@@ -22,14 +22,14 @@ used to handle the result.*/
 //therefore we used node js for accessing file system
 
 
-//use of blocking and non blocking Queue denpends on the use case of the queue
+//use of blocking and non blocking Queue depends on the use case of the queue
 
 //java script engine
 //**Web Api
 // environment (Node)
 
 
-//**Taske Queue promise Queue ** Higher priority Queue
+//**Task Queue promise Queue ** Higher priority Queue
 
 // call stack
 

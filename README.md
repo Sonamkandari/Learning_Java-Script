@@ -57,7 +57,20 @@
 2) Lecture_02_Use of setTimeout and clear timeout  function
 3) Lecture_03_Key board checker
 3) Lecture_04_Unlimited color changing
+
+ # 09_API Request and V8 engine
+ 1) Lecture_01_Notes ,Concept
     
+ # 10_Promises
+ 1) Lecture_01_Notes, Example ,Concept
+    
+ # 11_Fetch
+ 1) Lecture_01_Notes,Example ,Concept
+    
+ # 12_OOPS (object oriented programming in javaScript)
+ 1) Lecture_01_Notes ,Concept
+    
+ # 13_Prototyping
 
 
     

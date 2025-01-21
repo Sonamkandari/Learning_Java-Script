@@ -82,4 +82,33 @@ const promiseFour = new Promise(function(resolve,reject){
 
 
 
+const promiseFive = new Promise(function(resolve,reject){
+  setTimeout(function(){
+    let error=true
+    if(!error){
+        resolve({username:" Doraemon",password:"123"})
+    }else{
+        reject('EROOR: Doraemon is unable to gave gadgets')
+    }
+  },1000)  
+});
+// we can consume a promise by async 
+async function consumePromiseFive(){// promise is a object
+
+  try{  // using a try and catch block for handling an error, in case  we are getting an error
+    const response=await promiseFive// we can not handle an object simply so will will handle the promise  in a response
+    console.log(response);
+  }catch(error){
+     console.log(error);
+     
+  } 
+
+}
+consumePromiseFive();
+  
+    
+
+
+
+
 

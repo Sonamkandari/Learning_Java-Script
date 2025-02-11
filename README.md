@@ -71,6 +71,12 @@
  1) Lecture_01_Notes ,Concept
     
  # 13_Prototyping
+ 1) Lecture_01
+
+ # 14_Bind
+ 1) Lecture -Example why we are using wind
+ # 15 getter and setter
+ 1)Lecture - Topic Remainig
 
 
     

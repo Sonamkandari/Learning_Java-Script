@@ -1,4 +1,4 @@
-let score ="33abc"
+let score ="789"
 
 console.log(typeof score);
 console.log(typeof (score));
@@ -11,6 +11,7 @@ console.log(valueInNumber);//out put is NaN //not a number
 let Score =null
 
 console.log(typeof Score);
+
 console.log(typeof (Score));
 // type conversion
 let InNumber =Number(Score)

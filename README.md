@@ -78,6 +78,17 @@
  # 15 getter and setter
  1)Lecture - Topic Remainig
 
+ 
 
+## Explanation
+- **internal linking and external linking in java Script**
+
+- Internal linking means writing JavaScript code inside the HTML file, usually within the <script> tag.
+
+- external linking means writing javaScript code in  a separate .js file and linking it to the HTML using <script src="...">
+- 
+![alt text](image.png)
     
+## variable in java Script
+
 

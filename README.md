@@ -127,5 +127,8 @@ this will gave an error
 - we have to assign value to a const variable we can not left it without assigning a value
 
 ![alt text](image-3.png)
+
+- in case of productions most of the time it is preferred to use const 
+
 ---
 

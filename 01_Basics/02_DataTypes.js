@@ -1,3 +1,17 @@
+//  Data types in Java Scripts
+/* Data types
+- Numbers
+- Strings
+- Booleans
+- Null
+- Undefined
+- Objects
+*/
+
+// some basic operators
+/* +,-,*,/, %*/ 
+
+
 "use strict";//treat all js code as newer version
 // alert("hello")
 // alert(3+3) //gives a error because we are using node.js not browser
@@ -62,3 +76,36 @@ var a=10;
 let s="10";
 let o=10;
 console.log(s==o,s===o);
+
+
+//number data type
+let num=234;
+let num1=10;
+
+// strings data type 
+let fistName='sonam';
+const lastName=' kandari'
+// we can also do concatenation of two different strings
+console.log(fistName +lastName);
+
+//booleans data type in java script
+
+// booleans - 0,1 only
+let islog=true;
+console.log(islog);
+
+// js 1-> true | 0-> false
+// js true| false
+
+
+// if you multiply in compatible data types
+
+let num4=4.76;
+let num7='nobi';
+console.log(num4*num7);
+
+// this will give NaN (Not a number)
+// because we are trying to multiply a number and a character
+
+
+

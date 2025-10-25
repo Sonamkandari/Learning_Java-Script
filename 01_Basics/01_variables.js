@@ -38,3 +38,45 @@ var name="gautam";
 // table in java script is used to print information at once so that we don't have tp print data one by one
 console.table([studentId,studentAdress,name]);
 
+
+// we can assign value to the var variable first declaring it separately and then assigning value to it 
+var course ;
+course=234;
+console.log(course);
+/*
+var - global
+var can be re-assigned
+and it can be accessible from any where any time
+*/
+
+// const variable
+// we can't do this in case of const variable it will throw an error
+/*const student1;
+student1=Ron;
+console.log(student1);
+
+*/
+
+// scope of the const is also local
+if(true){
+    const a=30;
+    console.log(a);
+    
+}
+
+// console.log(a); this is not accessible
+
+// let variable
+/*let is local]
+re-assign
+it can be accessed in a block of code only
+*/
+// assigning value to a variable latter is valid for in case of let 
+let student2;
+student2="Rakesh";
+console.log(student2);
+
+
+
+
+

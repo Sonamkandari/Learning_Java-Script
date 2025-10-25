@@ -1,7 +1,6 @@
 // variables in java scripts
 
-// tip by using  ! mark + boiler plate you can directly create an boiler plate of html code
-
+// Note: by using  ! mark + boiler plate you can directly create an boiler plate of html code
 
 // for storing numbers and constant in java script we use constant
 const accountId = 1234

@@ -79,7 +79,7 @@
  1)Lecture - Topic Remainig
 
  
-
+---
 ## Explanation
 - **internal linking and external linking in java Script**
 
@@ -88,7 +88,38 @@
 - external linking means writing javaScript code in  a separate .js file and linking it to the HTML using <script src="...">
 - 
 ![alt text](image.png)
-    
+
+---     
 ## variable in java Script
 
+- Variables  
+- var
+- DataType varName =value: strongly type languages like java, C++, and c
+
+- java script is loosely type language it does not have data types and in this types of languages dynamically  data types will be assigned
+
+- we don't have to assign data type to java script it automatically assign data type to variables according to which type of data we are assigning to a particular variable
+--- 
+- **variable naming convention**
+- firstname
+- first_name
+- FirstName
+- firstName
+- firstName(camel casing is more preferable)
+- 
+
+- ** Invalid naming convention**
+- 1age it is invalid way
+- 5firstname it is also a invalid way
+- #name it is also a invalid way
+---
+# three variables in javascript
+- var - Scope of var key word is global
+- const - const is used when we don't have to  update the value of a variable again and again
+- let - this key word is used when we have to re initialized the values of variables (the scope of let variable  is local)
+![alt text](image-1.png)
+
+this will gave an error
+![alt text](image-2.png)
+---
 

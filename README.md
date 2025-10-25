@@ -116,10 +116,16 @@
 # three variables in javascript
 - var - Scope of var key word is global
 - const - const is used when we don't have to  update the value of a variable again and again
-- let - this key word is used when we have to re initialized the values of variables (the scope of let variable  is local)
+
+- **let**- this key word is used when we have to re initialized the values of variables (the scope of let variable  is local)
 ![alt text](image-1.png)
 
 this will gave an error
 ![alt text](image-2.png)
+
+- **const**- we preferred to use it when the value of a variable is initialized only once (scope of the variable is local) or we cannot resign the value of the variables
+- we have to assign value to a const variable we can not left it without assigning a value
+
+![alt text](image-3.png)
 ---
 

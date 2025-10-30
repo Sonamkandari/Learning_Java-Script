@@ -5,6 +5,25 @@ vscodeUser.id="10008929"
 vscodeUser.name="Dora"
 vscodeUser.isLoggedIn=false
 
+
+// creating a function
+const placementPrep=new Object()
+placementPrep.id="123";
+placementPrep.name="Dora";
+placementPrep.city="Dehradun";
+
+console.log(placementPrep);
+
+
+// creating an another object in javaScript
+const studentRequirements=new Object()
+studentRequirements.id="hello";
+studentRequirements.name="Sonam";
+studentRequirements.city="Noida";
+console.log(studentRequirements);
+
+
+
 //console.log(vscodeUser); //this print statement will print all the elements of the object
 
 //Declaring an another object using second way of declaring a method
@@ -18,6 +37,26 @@ const regularUser= {
    }
 }
 console.log(regularUser.fullname)
+
+// Another way of creating an object 
+
+const friendsGroup=[{
+    name:"Rishita Rawat",
+    number:23456,
+    Address:"Dehradun",
+    HouseNumber:123
+
+},
+    {
+     name:"Shubham",
+     number:1234,
+     Address:"Ladpur",
+     HouseNumber:345
+    }
+]
+console.log(friendsGroup);
+
+
 
 // merging two or more objects together
 

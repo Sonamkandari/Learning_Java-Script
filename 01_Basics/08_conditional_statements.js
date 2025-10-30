@@ -25,3 +25,24 @@ const new_age=78;
 // ternary operator
 new_age>=18 ? console.log('yes'):console.log('No');
 
+
+
+// switch cases
+
+const option =2;
+switch(option){
+    case 1:{
+        console.log('Namaste!')
+         break;
+    }
+   
+    case 2:{
+        console.log('hello');
+        break;
+    }
+    case 3:{
+        console.log('Arigato');
+        break;
+    }
+        
+}

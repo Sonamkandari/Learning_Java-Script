@@ -30,17 +30,30 @@ const Jsuser ={
     
 }
 
+Object.create
+const my_days=Symbol("Key2")
+const friend ={
+    [my_days]:"mykey2",
+    name1:"Rishita",
+    "full name":"sonam kandari",
+    age1:55,
+    email1:"sonamkandari2003@gmail.com",
+    adress1:"Tunwala",
+    phone1:78984
+}
+
+console.log(friend.name1,friend.age1,friend.adress1,friend.phone1)
 //one way of accessing the objects 
-console.log(Jsuser.name,Jsuser.age,Jsuser.Adress,Jsuser.Phone_Number);
+console.log(Jsuser.name,Jsuser.age,Jsuser.Aadress,Jsuser.Phone_Number);
 
 //Another way of accessing the objects
     /*NOTE->  "full name":"sonam kandari",
- this can not be accessed by previous method
- there fore we used another method */
+  this can not be accessed by previous method
+  therefore we used another method */
 
  console.log(Jsuser["full name"])
  console.log(Jsuser[mysymbol])//syntex for aacesssing a symbol
-console.log(typeof[mysymbol])
+ console.log(typeof[mysymbol])
 
 //making changes in the values of jsuser
 Jsuser.email="cholapuri@gmail.com"

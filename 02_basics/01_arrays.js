@@ -1,21 +1,21 @@
 //array
 // for array we use square brackets
-//array can store diiferent types of elemesnts at a time 
+//array can store different types of elements at a time 
 //we can read documentation of this topic AT MDN website
 const myArr =[1,2,3,4,5,6,]
 
 //note important thing is here is 
  
-//java Script arrays are resizable and can contain a mix of diiferent data types 
+// In javaScript arrays are resizable and can contain a mix of different data types 
 
-// array elemnts cannot be accessed using arbitrary strings as indexes 
+// array elements cannot be accessed using arbitrary strings as indexes 
 console.log(myArr["one"]);//not possible
-//by gaving the appropriate index address it wiil provide us the exact element of that particular index
+//by giving the appropriate index address it will provide us the exact element of that particular index
 console.log(myArr[0]);// this is the right way of doing
-
+console.log(myArr[5]);
 //another features of arrays in java script when we make copies of an array 
 //it create shallow copies 
-/*a shallow copies of an object is a copy whose properties share the same reference (point to the same underlying alues) as thodse
+/*a shallow copies of an object is a copy whose properties share the same reference (point to the same underlying values)
 of the source object from which the copy was made*/
 
 //another way of declaring array
@@ -23,7 +23,8 @@ of the source object from which the copy was made*/
 const myarr2 = new Array(1,2,3,4,5)
 console.log(myarr2[1]);
 
-//Methods of Array
+//Methods of Array 
+// push pop methods are used in arrays to add a new element in array and for removing an element from the array
 myarr2.push(9);//push method is used to add a new element in the array
 console.log(myarr2);
  
@@ -34,11 +35,10 @@ myarr2.unshift(6)// it is used to shift  the  elements and add the element in th
 /*OUTPUT OF UNSHIFT METHOD IS [6,1,2,3,4,5] */
 myarr2.shift()
 /*OUTPUT OF SHIFT METHOD IS [1,2,3,4,5] 
-because shift element will remove 1 elemet shift towards left hand side*/
+because shift element will remove 1 element shift towards left hand side*/
 console.log(myarr2);
 
 //now some questioning methods of array\
- 
 console.log(myarr2.includes(12));//Is the array is containing 4 or not 
 
 // .join method is used to add to different arrays

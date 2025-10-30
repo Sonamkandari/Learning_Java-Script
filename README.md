@@ -132,3 +132,10 @@ this will gave an error
 
 ---
 
+## Objects in java script and why we create objects in Java Script
+
+- Grouping related data together: instead of many separate variables like personName, personAge,personAddress, we can use an object like person={name:"",age:"",...address:""..}
+- Encapsulating functionality + Data
+- Organization and maintainability of the code
+- avoiding pollution of the pollution of the global namespace / improving scope control 
+

@@ -139,3 +139,22 @@ this will gave an error
 - Organization and maintainability of the code
 - avoiding pollution of the pollution of the global namespace / improving scope control 
 
+---
+# what is  object Destructuring
+- Object destructuring means taking properties out of an object and placing them into variables in one quick step
+---
+#  what are the common difference between arrow functions and  normal functions in java script
+- the first difference is of syntax
+- the second difference is of arguments object 
+- arrow function does not use arguments objects where as simple functions can use arguments objects in java script
+- 
+---
+# ✅ What is Hoisting?
+
+* Hoisting means JavaScript automatically moves variable and function declarations to the top of their scope before code runs.
+## why we use hoisting and why this concept is invented ?
+- Hoisting in JavaScript is a mechanism where variable and function declarations are moved to the top of their containing scope during the compilation phase, before the code is executed. This means that you can use functions and variables before they are formally declared in your code. 
+![alt text](image-4.png)
+
+- **note** we can not do hoisting in case of arrow functions 
+---

@@ -1,5 +1,5 @@
 /* IIFE -> IT IS STANDS FOR *** Immediately Invoked Function Expressions[IIFE]  ** Im*/
-
+// Immediately Invoke function Expression [IIFE]
 /*function subject(){
     console.log(`DB CONNECTED`);
 }

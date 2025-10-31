@@ -5,9 +5,8 @@
     function calculateCartprice(VAL1,VAL2,...num1){//*** but if we use ...num now all the arguments can be printed because we use [...NUM[REST OPERATOR [OR]SPREAD]]*/
     return num1 //return the element
  }
-console.log(calculateCartprice(200,300,455))// but we pass multiple arguements here
-/* but console will print only first argument because in the aboe fuction we passes a single parameter only*/
-
+console.log(calculateCartprice(200,300,455))// but we pass multiple arguments here
+/* but console will print only first argument because in the above function we passes a single parameter only*/
 
 //NOW LEARNING HOW TO PASS AN OBJECT IN A FUNCTION
 
@@ -22,10 +21,9 @@ function handleObject(anyobject) {
 // Call the function
 handleObject(student);
 
-//passing another data type in  a fuction -> ARRAY
-
+//passing another data type in  a function -> ARRAY
 const myArray =[23,45,67,89] //square brackets
-//now defining a fuction which accepts the array and return its second value
+//now defining a function which accepts the array and return its second value
 
 function returnSecondValue(getArray){
     return getArray[2]//it will return the value which is at index second
@@ -33,3 +31,4 @@ function returnSecondValue(getArray){
 console.log(returnSecondValue(myArray/*we passed our above created array here*/));
 
 
+// rest operators in java 

@@ -8,7 +8,7 @@ if(true){
 }
 
 //now if  we try to print above variables
-//console.log(a);//gave error becuse it is locally declare we can not use that variable out side the block
+//console.log(a);//gave error because it is locally declare we can not use that variable out side the block
 
 //similarly
 //console.log(b);//not print value of b

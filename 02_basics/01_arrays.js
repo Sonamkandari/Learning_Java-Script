@@ -57,6 +57,44 @@ console.log(myn2)
 console.log("c",myArr); /*The original array will be changed  after applying splice method*/
 
 
+//create an array student to store the name of different students
+const students=["sonam",'rohan',"gautam","satyam"];
+console.log(students);
+// to print the length of the array
+console.log(students.length);
+
+// to access the specific index of the array
+console.log(students[0]);
+
+students[1]="rahul";
+console.log(students);
+students[8]="akash"
+console.log(students);
+
+//Arrays are Homogeneous in others language like java , c++, c#
+
+
+// note Arrays are Heterogeneous in nature
+
+const myCousin=[1,"rahul","suraj","sagar","palavi"];
+console.log(myCousin);
+//push element is used to add a new element
+myCousin.push("sonam");
+console.log(myCousin);
+// pop is used here to remove an element from there
+myCousin.pop("sonam");
+console.log(myCousin);
+
+
+// we also have a reverse method which will reverse our complete array
+myCousin.reverse();
+console.log(myCousin);
+
+
+
+
+
+
 
 
 
